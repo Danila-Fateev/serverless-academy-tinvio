@@ -23,3 +23,5 @@ const colors = {
   },
   shadow: "#212121",
 };
+
+export default colors;
