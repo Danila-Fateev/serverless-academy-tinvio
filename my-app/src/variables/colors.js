@@ -15,6 +15,8 @@ const colors = {
     radialSixtyPercent: "radial-gradient(#999999, #FAFAFA)",
     radialFifteenPercent: "radial-gradient(#DADADA, #FAFAFA)",
     diamondVisual: "#FB242B",
+    diamondVisualSixtyPercent: "#fb373e",
+    diamondVisualForBlackBG: "linear-gradient(#6D6D6D, #FFFFFF)",
   },
   buttons: {
     primary: "#FF474D",
