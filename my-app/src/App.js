@@ -1,11 +1,12 @@
 import "./App.css";
-import { Link, Route, Routes } from "react-router-dom";
-import HomePage from "./pages/HomePage";
+import { Route, Routes } from "react-router-dom";
+import SharedLayout from "./components/SharedLayout";
 function App() {
   return (
     <>
+      <SharedLayout />
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/" element={<p />} />
       </Routes>
     </>
   );
