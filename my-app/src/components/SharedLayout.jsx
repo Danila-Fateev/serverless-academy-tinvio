@@ -5,12 +5,12 @@ function SharedLayout() {
   return (
     <>
       <Header />
+
       <main>
         <Outlet />
       </main>
-      <footer>
-        <Footer />
-      </footer>
+
+      <Footer />
     </>
   );
 }

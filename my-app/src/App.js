@@ -1,12 +1,14 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import SharedLayout from "./components/SharedLayout";
+import HomePage from "./pages/HomePage";
 function App() {
   return (
     <>
-      <SharedLayout />
       <Routes>
-        <Route path="/" element={<p />} />
+        <Route path="/" element={<SharedLayout />}>
+          <Route index element={<HomePage />} />
+        </Route>
       </Routes>
     </>
   );

@@ -5,6 +5,13 @@ function Header() {
     <>
       <header>
         <img src="" alt="" />
+        <p>TINVIO</p>
+        <select name="lang" id="langSelect">
+          <option value="en">English</option>
+          <option value="ua">Ukrainian</option>
+          <option value="ru">Russian</option>
+          <option value="fr">French</option>
+        </select>
         <nav>
           <ul>
             <li>

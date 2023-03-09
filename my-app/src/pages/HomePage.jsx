@@ -1,7 +1,9 @@
+import Hero from "../components/Hero";
+
 function HomePage() {
   return (
     <>
-      <p>Hello HELLO HELL HELLOOOOOOU!</p>
+      <Hero />
     </>
   );
 }
